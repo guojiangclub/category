@@ -38,7 +38,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "iBrand\\Component\\Category\\CategoryServiceProvider"
+        "iBrand\\Component\\Category\\ServiceProvider"
       ]
     }
   },
