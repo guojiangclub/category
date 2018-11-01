@@ -27,7 +27,6 @@ class CreateCategoryTables extends Migration
                 $table->nestedSet();
             });
         }
-
     }
 
     /**
@@ -40,6 +39,5 @@ class CreateCategoryTables extends Migration
         $prefix = config('ibrand.app.database.prefix', 'ibrand_');
 
         Schema::dropIfExists($prefix . 'category');
-
     }
 }
